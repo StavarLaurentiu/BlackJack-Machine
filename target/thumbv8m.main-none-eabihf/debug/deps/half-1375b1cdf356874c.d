@@ -1,0 +1,11 @@
+/Users/laurentiu/Desktop/proiect-StavarLaurentiu/target/thumbv8m.main-none-eabihf/debug/deps/libhalf-1375b1cdf356874c.rmeta: /Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/lib.rs /Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/bfloat.rs /Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/bfloat/convert.rs /Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/binary16.rs /Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/binary16/arch.rs /Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/leading_zeros.rs /Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/slice.rs
+
+/Users/laurentiu/Desktop/proiect-StavarLaurentiu/target/thumbv8m.main-none-eabihf/debug/deps/half-1375b1cdf356874c.d: /Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/lib.rs /Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/bfloat.rs /Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/bfloat/convert.rs /Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/binary16.rs /Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/binary16/arch.rs /Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/leading_zeros.rs /Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/slice.rs
+
+/Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/lib.rs:
+/Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/bfloat.rs:
+/Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/bfloat/convert.rs:
+/Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/binary16.rs:
+/Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/binary16/arch.rs:
+/Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/leading_zeros.rs:
+/Users/laurentiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.6.0/src/slice.rs:

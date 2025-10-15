@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/Users/laurentiu/Desktop/proiect-StavarLaurentiu/target/thumbv7em-none-eabi/debug/build/rp-pac-45c1fb1e68a9c565/out
+cargo:rerun-if-changed=device.x
+cargo:rerun-if-changed=build.rs

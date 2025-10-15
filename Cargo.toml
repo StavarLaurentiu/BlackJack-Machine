@@ -1,0 +1,59 @@
+# This table defines the package keys. 
+[package]
+name = "BlackJack-Machine"
+authors = ["Stavar Laurentiu-Cristian <laurentiu.stavar@stud.acs.upb.ro>"]
+
+# Inherited from the workspace
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+# This table contains the dependencies to be inherited by the members of a workspace.
+[dependencies]
+
+# Async/await executor
+embassy-executor = { version = "0.7.0", git = "https://github.com/embassy-rs/embassy", rev = "2e7a2b6", features = ["task-arena-size-98304", "arch-cortex-m", "executor-thread", "executor-interrupt", "defmt"] }
+
+# Utilities for working with futures, compatible with no_std and not using alloc
+embassy-futures = { version = "0.1.0", git = "https://github.com/embassy-rs/embassy", rev = "2e7a2b6" }
+
+# Timekeeping, delays and timeouts
+embassy-time = { version = "0.4.0", git = "https://github.com/embassy-rs/embassy", rev = "2e7a2b6", features = ["defmt", "defmt-timestamp-uptime"] }
+
+# RP2350 HAL
+embassy-rp = { version = "0.3.0", git = "https://github.com/embassy-rs/embassy", rev = "2e7a2b6", features = ["defmt", "unstable-pac", "time-driver", "critical-section-impl", "rp235xa", "binary-info"] }
+
+# Defmt support
+defmt = "0.3"
+defmt-rtt = "0.4"
+
+# Low level access to Cortex-M processors
+cortex-m-rt = "0.7.0"
+
+# Panic handler that exits `probe-run` with an error code
+panic-probe = { version = "0.3", features = ["print-defmt"] }
+
+# Graphics crate for OLED displays
+embedded-graphics = "0.8.1"
+
+# Heapless allocator for no_std collections
+heapless = "0.8"
+
+# The main embedded hal with blocking traits
+embedded-hal-1 = { package = "embedded-hal", version = "1.0" }
+
+# SSD1306 OLED driver
+ssd1306 = "0.8.0"
+
+# Random number generators for card shuffling
+rand = { version = "0.8.5", default-features = false, features = ["small_rng"] }
+
+# This table is used to specify the member crates of this workspace.
+[workspace]
+resolver = "3"
+
+# The table is where you define keys that can be inherited by members of a workspace.
+[workspace.package]
+rust-version = "1.85"
+edition = "2024"
+version = "0.1.0"

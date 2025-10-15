@@ -1,0 +1,5 @@
+cargo:rustc-link-search=/Users/laurentiu/Desktop/proiect-StavarLaurentiu/target/thumbv7em-none-eabi/debug/build/BlackJack-Machine-a89b77ebbfb94fee/out
+cargo:rerun-if-changed=memory.x
+cargo:rustc-link-arg-bins=--nmagic
+cargo:rustc-link-arg-bins=-Tlink.x
+cargo:rustc-link-arg-bins=-Tdefmt.x
