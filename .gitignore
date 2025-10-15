@@ -1,0 +1,35 @@
+# Build artifacts
+/target/
+
+# Debug artifacts
+**/*.rs.bk
+.gdb_history
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Development environment
+.env
+.envrc
+.direnv/
+
+# Binary files
+*.bin
+*.elf
+*.hex
+*.uf2
+
+# Generated documentation
+/doc/
+
+# Dependencies that can be rebuilt
+/Cargo.lock
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
